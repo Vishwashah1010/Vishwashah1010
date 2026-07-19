@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   // 2. TYPEWRITER HEADING ANIMATION
   // ==========================================
-  const words = ["⚡ Full Stack Developer", "🤖 AI & ML Enthusiast", "🎓 B.Tech Computer Engineering Student", "🔒 Cybersecurity Learner"];
+  const words = ["⚡ Full Stack Developer", "🤖 AI & ML Enthusiast", "🎓 B.Tech Computer Science And Technology Student", "🔒 Cybersecurity Learner"];
   let wordIndex = 0;
   let charIndex = 0;
   let isDeleting = false;

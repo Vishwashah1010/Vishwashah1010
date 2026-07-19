@@ -227,7 +227,7 @@
         
         <text x="20" y="35" class="code-text" fill="#8000b3">"name": <tspan fill="#0088a8">"Vishwa Shah"</tspan>,</text>
         <text x="20" y="60" class="code-text" fill="#8000b3">"role": <tspan fill="#0088a8">"Full Stack Developer"</tspan>,</text>
-        <text x="20" y="85" class="code-text" fill="#8000b3">"education": <tspan fill="#0088a8">"B.Tech Computer Engineering"</tspan>,</text>
+        <text x="20" y="85" class="code-text" fill="#8000b3">"education": <tspan fill="#0088a8">"B.Tech Computer Science And Technology"</tspan>,</text>
         <text x="20" y="110" class="code-text" fill="#8000b3">"specialty": <tspan fill="#0088a8">"AI &amp; Scalable Web Architectures"</tspan>,</text>
         <text x="20" y="135" class="code-text" fill="#8000b3">"interests": <tspan fill="#483d73">[</tspan><tspan fill="#0088a8">"Machine Learning"</tspan>, <tspan fill="#0088a8">"Cybersecurity"</tspan><tspan fill="#483d73">]</tspan>,</text>
         
@@ -249,7 +249,7 @@
     <text x="0" y="0" class="role-container role-1">⚡ Full Stack Developer</text>
     <text x="0" y="0" class="role-container role-2">🤖 AI &amp; Machine Learning Enthusiast</text>
     <text x="0" y="0" class="role-container role-3">🔒 Cybersecurity Learner</text>
-    <text x="0" y="0" class="role-container role-4">🎓 B.Tech Computer Engineering Student</text>
+    <text x="0" y="0" class="role-container role-4">🎓 B.Tech Computer Science And Technology Student</text>
   </g>
 
   <!-- ================= FLICKERING NEON Motto ================= -->
