@@ -17,6 +17,13 @@
 <!-- Profile views counter -->
 <img src="https://komarev.com/ghpvc/?username=Vishwashah1010&label=Profile%20Views&color=ff007f&style=for-the-badge" />
 
+<br/><br/>
+
+<!-- Interactive Live Portfolio Badge -->
+<a href="https://vishwashah1010.github.io/">
+  <img src="https://img.shields.io/badge/Interactive_Portfolio-Live_Site-00f7ff?style=for-the-badge&logo=google-chrome&logoColor=black" />
+</a>
+
 </div>
 
 ---
