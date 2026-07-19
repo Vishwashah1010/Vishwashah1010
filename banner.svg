@@ -54,7 +54,8 @@
     </linearGradient>
     
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Montserrat:wght@400;700;800&amp;family=Pacifico&amp;display=swap');
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Montserrat:wght@400;700;800&family=Pacifico&display=swap');
       
       .bg-rect { fill: url(#bgGrad); }
       .title-text { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 56px; fill: url(#neonGrad); filter: drop-shadow(0px 4px 8px rgba(191,0,255,0.3)); }
@@ -173,6 +174,7 @@
         0% { opacity: 0; transform: scaleY(0); filter: brightness(2) contrast(3); }
         100% { opacity: 0.9; transform: scaleY(1); }
       }
+      ]]>
     </style>
   </defs>
   

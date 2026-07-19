@@ -53,9 +53,10 @@
     </linearGradient>
     
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Montserrat:wght@400;700;800&amp;family=Pacifico&amp;display=swap');
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Montserrat:wght@400;700;800&family=Pacifico&display=swap');
       
-      .bg-rect { fill: fill: url(#bgGrad); }
+      .bg-rect { fill: url(#bgGrad); }
       .title-text { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 56px; fill: url(#neonGrad); filter: drop-shadow(0px 2px 4px rgba(128,0,179,0.15)); }
       .subtitle-text { font-family: 'Fira Code', monospace; font-size: 20px; fill: #5c4e9c; }
       .normal-text { font-family: 'Montserrat', sans-serif; font-size: 16px; fill: #483d73; }
@@ -169,6 +170,7 @@
         0% { opacity: 0; transform: scaleY(0); filter: brightness(1.5); }
         100% { opacity: 0.95; transform: scaleY(1); }
       }
+      ]]>
     </style>
   </defs>
   

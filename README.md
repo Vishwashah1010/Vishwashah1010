@@ -2,15 +2,15 @@
 
 <!-- Banner: Automatically switches between Dark and Light mode based on GitHub Theme -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Vishwa's Profile Banner" src="banner.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/banner-light.svg?v=1">
+  <img alt="Vishwa's Profile Banner" src="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/banner.svg?v=1" width="100%">
 </picture>
 
 <br/><br/>
 
 <!-- Lanyard Swinging ID Badge -->
-<img alt="Vishwa's Lanyard Badge" src="lanyard.svg?v=1" width="380">
+<img alt="Vishwa's Lanyard Badge" src="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/lanyard.svg?v=1" width="380">
 
 <br/><br/>
 
@@ -143,8 +143,8 @@ Property Locker • OCR Integration • AI Insights • Investment Recommendatio
 # 📈 GitHub Analytics
 
 <div align="center">
-  <img src="stats.svg?v=1" width="48%" />
-  <img src="langs.svg?v=1" width="48%" />
+  <img src="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/stats.svg?v=1" width="48%" />
+  <img src="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/langs.svg?v=1" width="48%" />
 </div>
 
 ---
@@ -152,7 +152,7 @@ Property Locker • OCR Integration • AI Insights • Investment Recommendatio
 # 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="trophies.svg?v=1" width="100%" />
+  <img src="https://raw.githubusercontent.com/Vishwashah1010/Vishwashah1010/main/trophies.svg?v=1" width="100%" />
 </div>
 
 ---
@@ -176,7 +176,7 @@ Property Locker • OCR Integration • AI Insights • Investment Recommendatio
 
 <div align="center">
 
-<a href="https://linkedin.com/in/vishwa-shah-01948234">
+<a href="https://linkedin.com/in/vishwa-shah-019482340">
   <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin"/>
 </a>
 

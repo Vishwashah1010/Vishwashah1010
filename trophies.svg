@@ -32,38 +32,40 @@
       </feMerge>
     </filter>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&amp;display=swap');
-      .trophy-title {{ font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700; fill: #e0d5ff; text-anchor: middle; }}
-      .trophy-rank {{ font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; fill: #00f7ff; text-anchor: middle; filter: url(#glow); }}
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+      .trophy-title { font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700; fill: #e0d5ff; text-anchor: middle; }
+      .trophy-rank { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; fill: #00f7ff; text-anchor: middle; filter: url(#glow); }
       
       /* Hover animation for cells */
-      .trophy-cell {{
+      .trophy-cell {
         transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
         cursor: pointer;
-      }}
-      .trophy-cell:hover {{
+      }
+      .trophy-cell:hover {
         transform: translateY(-5px) scale(1.03);
-      }}
-      .trophy-cell:hover .shine-overlay {{
+      }
+      .trophy-cell:hover .shine-overlay {
         animation: shineSweep 1s forwards;
-      }}
+      }
       
-      @keyframes shineSweep {{
-        0% {{ transform: translateX(-80px) rotate(45deg); }}
-        100% {{ transform: translateX(80px) rotate(45deg); }}
-      }}
+      @keyframes shineSweep {
+        0% { transform: translateX(-80px) rotate(45deg); }
+        100% { transform: translateX(80px) rotate(45deg); }
+      }
       
       /* Entrance animations */
-      .cell-1 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; opacity: 0; }}
-      .cell-2 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s forwards; opacity: 0; }}
-      .cell-3 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s forwards; opacity: 0; }}
-      .cell-4 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s forwards; opacity: 0; }}
-      .cell-5 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s forwards; opacity: 0; }}
+      .cell-1 { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; opacity: 0; }
+      .cell-2 { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s forwards; opacity: 0; }
+      .cell-3 { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s forwards; opacity: 0; }
+      .cell-4 { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s forwards; opacity: 0; }
+      .cell-5 { animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s forwards; opacity: 0; }
       
-      @keyframes popIn {{
-        0% {{ transform: scale(0.6); opacity: 0; }}
-        100% {{ transform: scale(1); opacity: 1; }}
-      }}
+      @keyframes popIn {
+        0% { transform: scale(0.6); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      ]]>
     </style>
   </defs>
   

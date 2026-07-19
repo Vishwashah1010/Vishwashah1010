@@ -45,7 +45,8 @@
     </filter>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&amp;family=Montserrat:wght@400;700;800&amp;display=swap');
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Montserrat:wght@400;700;800&display=swap');
       
       .card-name { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 20px; fill: #ffffff; }
       .card-title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 11px; fill: #00f7ff; text-transform: uppercase; letter-spacing: 2px; }
@@ -86,6 +87,7 @@
         50% { transform: translate(300px, 300px) rotate(45deg); }
         100% { transform: translate(-300px, -300px) rotate(45deg); }
       }
+      ]]>
     </style>
   </defs>
 

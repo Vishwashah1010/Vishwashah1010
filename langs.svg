@@ -5,20 +5,22 @@
       <stop offset="100%" stop-color="#0a051b"/>
     </linearGradient>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Fira+Code&amp;display=swap');
-      .title {{ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; fill: #00f7ff; }}
-      .label {{ font-family: 'Montserrat', sans-serif; font-size: 12px; fill: #e0d5ff; }}
-      .pct {{ font-family: 'Fira Code', monospace; font-size: 12px; fill: #a594f9; }}
+      <![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Fira+Code&display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; fill: #00f7ff; }
+      .label { font-family: 'Montserrat', sans-serif; font-size: 12px; fill: #e0d5ff; }
+      .pct { font-family: 'Fira Code', monospace; font-size: 12px; fill: #a594f9; }
       
       /* Progress bar scale animation */
-      .bar-fill {{
+      .bar-fill {
         animation: scaleWidth 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
         transform-origin: left;
         transform: scaleX(0);
-      }}
-      @keyframes scaleWidth {{
-        to {{ transform: scaleX(1); }}
-      }}
+      }
+      @keyframes scaleWidth {
+        to { transform: scaleX(1); }
+      }
+      ]]>
     </style>
   </defs>
   <rect width="450" height="200" rx="15" fill="url(#bgGrad)" stroke="#bf00ff" stroke-width="1.2"/>
