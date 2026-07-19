@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" width="450" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140b2d"/>
+      <stop offset="100%" stop-color="#0a051b"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f7ff"/>
+      <stop offset="100%" stop-color="#ff007f"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&amp;family=Fira+Code:monospace&amp;display=swap');
+      .title {{ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; fill: #00f7ff; }}
+      .label {{ font-family: 'Montserrat', sans-serif; font-size: 13px; fill: #e0d5ff; }}
+      .val {{ font-family: 'Fira Code', monospace; font-size: 13px; font-weight: bold; fill: #ffffff; }}
+      .rank-title {{ font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 11px; fill: #a594f9; text-transform: uppercase; letter-spacing: 1px; }}
+      .rank-letter {{ font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 42px; fill: url(#glowGrad); filter: url(#glow); }}
+      
+      /* Progress bar load animations */
+      .bar-fill {{
+        animation: fillBar 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        transform-origin: left;
+        transform: scaleX(0);
+      }}
+      @keyframes fillBar {{
+        to {{ transform: scaleX(1); }}
+      }}
+      
+      /* Rank ring rotate animation */
+      .rank-ring {{
+        transform-origin: 70px 105px;
+        animation: rotateRing 3.5s infinite linear;
+        stroke-dasharray: 220;
+        stroke-dashoffset: 60;
+      }}
+      @keyframes rotateRing {{
+        100% {{ transform: rotate(360deg); }}
+      }}
+    </style>
+  </defs>
+  <rect width="450" height="200" rx="15" fill="url(#bgGrad)" stroke="#bf00ff" stroke-width="1.2"/>
+  
+  <!-- Header -->
+  <text x="25" y="32" class="title">Vishwa's GitHub Stats</text>
+  <line x1="25" y1="42" x2="425" y2="42" stroke="#bf00ff" stroke-width="0.8" opacity="0.3"/>
+  
+  <!-- Rank circular ring -->
+  <g transform="translate(0, 0)">
+    <circle cx="70" cy="115" r="40" fill="none" stroke="#25164d" stroke-width="6"/>
+    <circle cx="70" cy="115" r="40" fill="none" stroke="url(#glowGrad)" stroke-width="6" class="rank-ring" filter="url(#glow)"/>
+    <text x="70" y="88" class="rank-title" text-anchor="middle">Rank</text>
+    <text x="70" y="130" class="rank-letter" text-anchor="middle">S+</text>
+  </g>
+  
+  <!-- Stats rows -->
+  <g transform="translate(145, 60)">
+    <!-- Row 1: Commits -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="15" class="label">Total Commits</text>
+      <text x="170" y="15" class="val" text-anchor="end">1,540</text>
+      <rect x="0" y="24" width="170" height="6" rx="3" fill="#25164d"/>
+      <rect x="0" y="24" width="138" height="6" rx="3" fill="#ff007f" class="bar-fill"/>
+    </g>
+    <!-- Row 2: Pull Requests -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="15" class="label">Pull Requests</text>
+      <text x="170" y="15" class="val" text-anchor="end">84</text>
+      <rect x="0" y="24" width="170" height="6" rx="3" fill="#25164d"/>
+      <rect x="0" y="24" width="120" height="6" rx="3" fill="#bf00ff" class="bar-fill" style="animation-delay: 0.2s;"/>
+    </g>
+    <!-- Row 3: Stars Earned -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="15" class="label">Stars Earned</text>
+      <text x="170" y="15" class="val" text-anchor="end">56</text>
+      <rect x="0" y="24" width="170" height="6" rx="3" fill="#25164d"/>
+      <rect x="0" y="24" width="95" height="6" rx="3" fill="#00f7ff" class="bar-fill" style="animation-delay: 0.4s;"/>
+    </g>
+  </g>
+</svg>

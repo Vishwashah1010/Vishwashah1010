@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" width="450" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140b2d"/>
+      <stop offset="100%" stop-color="#0a051b"/>
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Fira+Code&amp;display=swap');
+      .title {{ font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; fill: #00f7ff; }}
+      .label {{ font-family: 'Montserrat', sans-serif; font-size: 12px; fill: #e0d5ff; }}
+      .pct {{ font-family: 'Fira Code', monospace; font-size: 12px; fill: #a594f9; }}
+      
+      /* Progress bar scale animation */
+      .bar-fill {{
+        animation: scaleWidth 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+        transform-origin: left;
+        transform: scaleX(0);
+      }}
+      @keyframes scaleWidth {{
+        to {{ transform: scaleX(1); }}
+      }}
+    </style>
+  </defs>
+  <rect width="450" height="200" rx="15" fill="url(#bgGrad)" stroke="#bf00ff" stroke-width="1.2"/>
+  
+  <!-- Header -->
+  <text x="25" y="32" class="title">Most Used Languages</text>
+  <line x1="25" y1="42" x2="425" y2="42" stroke="#bf00ff" stroke-width="0.8" opacity="0.3"/>
+  
+  <g transform="translate(25, 60)">
+    <!-- Lang 1: JavaScript -->
+    <g transform="translate(0, 0)">
+      <circle cx="10" cy="10" r="6" fill="#f7df1e"/>
+      <text x="25" y="14" class="label">JavaScript</text>
+      <text x="140" y="14" class="pct">42.5%</text>
+      <rect x="180" y="7" width="220" height="8" rx="4" fill="#25164d"/>
+      <rect x="180" y="7" width="93.5" height="8" rx="4" fill="#f7df1e" class="bar-fill"/>
+    </g>
+    <!-- Lang 2: Python -->
+    <g transform="translate(0, 32)">
+      <circle cx="10" cy="10" r="6" fill="#3776ab"/>
+      <text x="25" y="14" class="label">Python</text>
+      <text x="140" y="14" class="pct">28.0%</text>
+      <rect x="180" y="7" width="220" height="8" rx="4" fill="#25164d"/>
+      <rect x="180" y="7" width="61.6" height="8" rx="4" fill="#3776ab" class="bar-fill" style="animation-delay: 0.1s;"/>
+    </g>
+    <!-- Lang 3: TypeScript -->
+    <g transform="translate(0, 64)">
+      <circle cx="10" cy="10" r="6" fill="#3178c6"/>
+      <text x="25" y="14" class="label">TypeScript</text>
+      <text x="140" y="14" class="pct">15.5%</text>
+      <rect x="180" y="7" width="220" height="8" rx="4" fill="#25164d"/>
+      <rect x="180" y="7" width="34.1" height="8" rx="4" fill="#3178c6" class="bar-fill" style="animation-delay: 0.2s;"/>
+    </g>
+    <!-- Lang 4: Java -->
+    <g transform="translate(0, 96)">
+      <circle cx="10" cy="10" r="6" fill="#b07219"/>
+      <text x="25" y="14" class="label">Java</text>
+      <text x="140" y="14" class="pct">10.0%</text>
+      <rect x="180" y="7" width="220" height="8" rx="4" fill="#25164d"/>
+      <rect x="180" y="7" width="22.0" height="8" rx="4" fill="#b07219" class="bar-fill" style="animation-delay: 0.3s;"/>
+    </g>
+    <!-- Lang 5: HTML/CSS -->
+    <g transform="translate(0, 128)">
+      <circle cx="10" cy="10" r="6" fill="#e34f26"/>
+      <text x="25" y="14" class="label">HTML/CSS</text>
+      <text x="140" y="14" class="pct">4.0%</text>
+      <rect x="180" y="7" width="220" height="8" rx="4" fill="#25164d"/>
+      <rect x="180" y="7" width="8.8" height="8" rx="4" fill="#e34f26" class="bar-fill" style="animation-delay: 0.4s;"/>
+    </g>
+  </g>
+</svg>

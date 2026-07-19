@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 130" width="850" height="130">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140b2d"/>
+      <stop offset="100%" stop-color="#0a051b"/>
+    </linearGradient>
+    <linearGradient id="trophyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe600"/>
+      <stop offset="50%" stop-color="#ffb700"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#808080"/>
+    </linearGradient>
+    <linearGradient id="bronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0a57a"/>
+      <stop offset="50%" stop-color="#d27d53"/>
+      <stop offset="100%" stop-color="#a0522d"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&amp;display=swap');
+      .trophy-title {{ font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 700; fill: #e0d5ff; text-anchor: middle; }}
+      .trophy-rank {{ font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; fill: #00f7ff; text-anchor: middle; filter: url(#glow); }}
+      
+      /* Hover animation for cells */
+      .trophy-cell {{
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        cursor: pointer;
+      }}
+      .trophy-cell:hover {{
+        transform: translateY(-5px) scale(1.03);
+      }}
+      .trophy-cell:hover .shine-overlay {{
+        animation: shineSweep 1s forwards;
+      }}
+      
+      @keyframes shineSweep {{
+        0% {{ transform: translateX(-80px) rotate(45deg); }}
+        100% {{ transform: translateX(80px) rotate(45deg); }}
+      }}
+      
+      /* Entrance animations */
+      .cell-1 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; opacity: 0; }}
+      .cell-2 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.1s forwards; opacity: 0; }}
+      .cell-3 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s forwards; opacity: 0; }}
+      .cell-4 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s forwards; opacity: 0; }}
+      .cell-5 {{ animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s forwards; opacity: 0; }}
+      
+      @keyframes popIn {{
+        0% {{ transform: scale(0.6); opacity: 0; }}
+        100% {{ transform: scale(1); opacity: 1; }}
+      }}
+    </style>
+  </defs>
+  
+  <rect width="850" height="130" rx="15" fill="url(#bgGrad)" stroke="#bf00ff" stroke-width="1.2"/>
+  
+  <!-- Trophy 1: Commit Master -->
+  <g class="trophy-cell cell-1" transform="translate(25, 10)">
+    <rect width="140" height="110" rx="10" fill="#1b103c" stroke="#bf00ff" stroke-width="0.8"/>
+    <text x="70" y="24" class="trophy-title">Commits Master</text>
+    <path d="M 55,42 L 85,42 L 85,55 C 85,65 78,72 70,72 C 62,72 55,65 55,55 Z" fill="url(#trophyGrad)"/>
+    <path d="M 50,47 L 55,47 L 55,57 L 50,57 C 47,57 45,55 45,52 C 45,49 47,47 50,47 Z" fill="url(#trophyGrad)"/>
+    <path d="M 90,47 L 85,47 L 85,57 L 90,57 C 93,57 95,55 95,52 C 95,49 93,47 90,47 Z" fill="url(#trophyGrad)"/>
+    <rect x="66" y="72" width="8" height="12" fill="url(#trophyGrad)"/>
+    <ellipse cx="70" cy="85" rx="18" ry="5" fill="url(#trophyGrad)"/>
+    <text x="70" y="100" class="trophy-rank">★ S ★</text>
+  </g>
+  
+  <!-- Trophy 2: Multi-Language Expert -->
+  <g class="trophy-cell cell-2" transform="translate(185, 10)">
+    <rect width="140" height="110" rx="10" fill="#1b103c" stroke="#bf00ff" stroke-width="0.8"/>
+    <text x="70" y="24" class="trophy-title">Polyglot Dev</text>
+    <path d="M 55,42 L 85,42 L 85,55 C 85,65 78,72 70,72 C 62,72 55,65 55,55 Z" fill="url(#silverGrad)"/>
+    <path d="M 50,47 L 55,47 L 55,57 L 50,57 C 47,57 45,55 45,52 C 45,49 47,47 50,47 Z" fill="url(#silverGrad)"/>
+    <path d="M 90,47 L 85,47 L 85,57 L 90,57 C 93,57 95,55 95,52 C 95,49 93,47 90,47 Z" fill="url(#silverGrad)"/>
+    <rect x="66" y="72" width="8" height="12" fill="url(#silverGrad)"/>
+    <ellipse cx="70" cy="85" rx="18" ry="5" fill="url(#silverGrad)"/>
+    <text x="70" y="100" class="trophy-rank">★ A ★</text>
+  </g>
+  
+  <!-- Trophy 3: Star Collector -->
+  <g class="trophy-cell cell-3" transform="translate(345, 10)">
+    <rect width="140" height="110" rx="10" fill="#1b103c" stroke="#bf00ff" stroke-width="0.8"/>
+    <text x="70" y="24" class="trophy-title">Star Collector</text>
+    <path d="M 55,42 L 85,42 L 85,55 C 85,65 78,72 70,72 C 62,72 55,65 55,55 Z" fill="url(#trophyGrad)"/>
+    <path d="M 50,47 L 55,47 L 55,57 L 50,57 C 47,57 45,55 45,52 C 45,49 47,47 50,47 Z" fill="url(#trophyGrad)"/>
+    <path d="M 90,47 L 85,47 L 85,57 L 90,57 C 93,57 95,55 95,52 C 95,49 93,47 90,47 Z" fill="url(#trophyGrad)"/>
+    <rect x="66" y="72" width="8" height="12" fill="url(#trophyGrad)"/>
+    <ellipse cx="70" cy="85" rx="18" ry="5" fill="url(#trophyGrad)"/>
+    <text x="70" y="100" class="trophy-rank">★ S ★</text>
+  </g>
+  
+  <!-- Trophy 4: AI & ML Innovator -->
+  <g class="trophy-cell cell-4" transform="translate(505, 10)">
+    <rect width="140" height="110" rx="10" fill="#1b103c" stroke="#bf00ff" stroke-width="0.8"/>
+    <text x="70" y="24" class="trophy-title">AI Architect</text>
+    <path d="M 55,42 L 85,42 L 85,55 C 85,65 78,72 70,72 C 62,72 55,65 55,55 Z" fill="url(#trophyGrad)"/>
+    <path d="M 50,47 L 55,47 L 55,57 L 50,57 C 47,57 45,55 45,52 C 45,49 47,47 50,47 Z" fill="url(#trophyGrad)"/>
+    <path d="M 90,47 L 85,47 L 85,57 L 90,57 C 93,57 95,55 95,52 C 95,49 93,47 90,47 Z" fill="url(#trophyGrad)"/>
+    <rect x="66" y="72" width="8" height="12" fill="url(#trophyGrad)"/>
+    <ellipse cx="70" cy="85" rx="18" ry="5" fill="url(#trophyGrad)"/>
+    <text x="70" y="100" class="trophy-rank">★ S ★</text>
+  </g>
+  
+  <!-- Trophy 5: PR Champion -->
+  <g class="trophy-cell cell-5" transform="translate(665, 10)">
+    <rect width="140" height="110" rx="10" fill="#1b103c" stroke="#bf00ff" stroke-width="0.8"/>
+    <text x="70" y="24" class="trophy-title">PR Champion</text>
+    <path d="M 55,42 L 85,42 L 85,55 C 85,65 78,72 70,72 C 62,72 55,65 55,55 Z" fill="url(#bronzeGrad)"/>
+    <path d="M 50,47 L 55,47 L 55,57 L 50,57 C 47,57 45,55 45,52 C 45,49 47,47 50,47 Z" fill="url(#bronzeGrad)"/>
+    <path d="M 90,47 L 85,47 L 85,57 L 90,57 C 93,57 95,55 95,52 C 95,49 93,47 90,47 Z" fill="url(#bronzeGrad)"/>
+    <rect x="66" y="72" width="8" height="12" fill="url(#bronzeGrad)"/>
+    <ellipse cx="70" cy="85" rx="18" ry="5" fill="url(#bronzeGrad)"/>
+    <text x="70" y="100" class="trophy-rank">★ B ★</text>
+  </g>
+</svg>
