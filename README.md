@@ -40,7 +40,7 @@
 # 🚀 Featured Projects
 
 <div align="center">
-        ###🔹 UrbanPulse
+      ### 🔹 UrbanPulse
   
 **Hyperlocal Civic Issue Reporting Platform**
 
