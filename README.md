@@ -41,6 +41,7 @@
 
 <div align="center">
 ### 🔹 UrbanPulse
+  
 **Hyperlocal Civic Issue Reporting Platform**
 
 AI Issue Categorization • Interactive Maps • Real-time Tracking • Community Verification • Analytics Dashboard
