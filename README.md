@@ -40,6 +40,16 @@
 # 🚀 Featured Projects
 
 <div align="center">
+### 🔹 UrbanPulse
+**Hyperlocal Civic Issue Reporting Platform**
+
+AI Issue Categorization • Interactive Maps • Real-time Tracking • Community Verification • Analytics Dashboard
+
+**Tech:** React • Express • TypeScript • Leaflet • Gemini AI
+
+🔗 **[Live Demo](https://urban-pulse-hyperlocal-problem-solv.vercel.app)** | 📂 **[GitHub Repository](https://github.com/Vishwashah1010/UrbanPulse)**
+
+---
 
 ### 🔹 BidLens
 **AI-powered Tender Analysis Platform**
@@ -49,17 +59,6 @@ AI Document Analysis • Smart Tender Comparison • Eligibility Detection • D
 **Tech:** React • Node.js • Express • PostgreSQL • Gemini AI
 
 🔗 **[Live Demo](https://bid-lens-iota.vercel.app)** | 📂 **[GitHub Repository](https://github.com/Vishwashah1010/BidLens)**
-
----
-
-### 🔹 UrbanPulse
-**Hyperlocal Civic Issue Reporting Platform**
-
-AI Issue Categorization • Interactive Maps • Real-time Tracking • Community Verification • Analytics Dashboard
-
-**Tech:** React • Express • TypeScript • Leaflet • Gemini AI
-
-🔗 **[Live Demo](https://urban-pulse-hyperlocal-problem-solv.vercel.app)** | 📂 **[GitHub Repository](https://github.com/Vishwashah1010/UrbanPulse)**
 
 ---
 
