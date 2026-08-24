@@ -43,9 +43,9 @@
 ⚡ **Fun Fact:** I believe the best way to learn is by building real products.
 
 ---
-<div align="center">
-# 🚀 Featured Projects
 
+# 🚀 Featured Projects
+<div align="center">
 
    ### 🔹 UrbanPulse
   
