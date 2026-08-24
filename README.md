@@ -47,7 +47,7 @@
 # 🚀 Featured Projects
 
 
-      ### 🔹 UrbanPulse
+   ### 🔹 UrbanPulse
   
 **Hyperlocal Civic Issue Reporting Platform**
 
@@ -59,7 +59,7 @@ AI Issue Categorization • Interactive Maps • Real-time Tracking • Communit
 
 ---
 
-      ### 🔹Globe Trotter
+  ### 🔹Globe Trotter
   
 **Travell Guiding  Platform**
 
