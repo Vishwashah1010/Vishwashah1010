@@ -43,10 +43,10 @@
 ⚡ **Fun Fact:** I believe the best way to learn is by building real products.
 
 ---
-
+<div align="center">
 # 🚀 Featured Projects
 
-<div align="center">
+
       ### 🔹 UrbanPulse
   
 **Hyperlocal Civic Issue Reporting Platform**
@@ -58,6 +58,20 @@ AI Issue Categorization • Interactive Maps • Real-time Tracking • Communit
 🔗 **[Live Demo](https://urban-pulse-hyperlocal-problem-solv.vercel.app)** | 📂 **[GitHub Repository](https://github.com/Vishwashah1010/UrbanPulse)**
 
 ---
+
+      ### 🔹Globe Trotter
+  
+**Travell Guiding  Platform**
+
+AI Issue Categorization • Interactive Maps • Real-time Tracking • Community Verification • Analytics Dashboard • Budget And Cost Management • Packing Assistant • Moodboard • Itenary 
+
+**Tech:** React • Express • TypeScript • Leaflet • Gemini AI
+
+🔗 **[Live Demo](https://globe-trotter-iota.vercel.app/)** | 📂 **[GitHub Repository](https://github.com/Vishwashah1010/GlobeTrotter)**
+
+---
+
+
 
 ### 🔹 BidLens
 **AI-powered Tender Analysis Platform**
