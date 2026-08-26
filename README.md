@@ -20,7 +20,7 @@
 <br/><br/>
 
 <!-- Interactive Live Portfolio Badge -->
-<a href="[https://vishwa-shah-portfolio-beryl.vercel.app]">
+<a href="[https://vishwa-shah-portfolio-beryl.vercel.app]"
   <img src="https://img.shields.io/badge/Interactive_Portfolio-Live_Site-00f7ff?style=for-the-badge&logo=google-chrome&logoColor=black" />
 </a>
 
